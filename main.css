@@ -4,7 +4,7 @@
 }
 
 body{
-    background: #fcfcfc;
+    background: #eec0c0;
 }
 
 .contenedor{
@@ -60,7 +60,7 @@ p.p2:hover{
 p.p3{
     position: absolute;
     top: 400px;
-    left: 500px;
+    left: 200px;
     width: 100px;
 }
 p.p3:hover{
