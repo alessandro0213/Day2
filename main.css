@@ -5,6 +5,9 @@
 
 body{
     background: #eec0c0;
+    background-image: url('image2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .contenedor{
@@ -12,6 +15,7 @@ body{
     width: 900px;
     margin-top: 300px;
     text-align: center;
+    color: #d7d7d7;
 }
 
 .titulo{
@@ -20,7 +24,7 @@ body{
 
 
 .opciones p{
-    background: black;
+    background: rgb(110, 26, 26);
     display: initial;
     padding: 12px;
     color: #ffffff;
@@ -28,7 +32,7 @@ body{
     font-weight: bold;
 }
 .opciones p1{
-    background: black;
+    background: rgb(13, 235, 21);
     display: initial;
     padding: 12px;
     color: #ffffff;
@@ -88,3 +92,16 @@ p.p3:hover{
     padding: 50px;
     display: none;
 }
+.text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.8); /* Cambia el color del texto para que sea visible en la imagen */
+  text-align: center;
+}
+h1 {
+    position: center;
+    left: 20px;
+}
+
